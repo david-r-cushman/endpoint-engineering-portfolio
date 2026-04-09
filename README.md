@@ -94,3 +94,9 @@ Rather than collecting every script or experiment, I want this portfolio to high
 - [powershell-driver-management Case Study](./projects/powershell-driver-management.md)
 - [winpe-deployment-lab Case Study](./projects/winpe-deployment-lab.md)
 - [Portfolio Roadmap](./docs/portfolio-roadmap.md)
+
+## Usage Notice
+
+This repository is provided for portfolio and evaluation purposes.
+
+See [`NOTICE.md`](./NOTICE.md) for rights and usage details.
