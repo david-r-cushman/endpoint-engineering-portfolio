@@ -63,6 +63,19 @@ What it demonstrates:
 Repository:
 [powershell-driver-management](https://github.com/david-r-cushman/powershell-driver-management)
 
+### [WinPE Deployment Lab](./projects/winpe-deployment-lab.md)
+
+A PowerShell-driven WinPE lab for building capture and deployment media and working directly with offline WIM maintenance.
+
+What it demonstrates:
+
+- hands-on understanding of WinPE and Windows imaging mechanics beyond ConfigMgr and MDT abstractions
+- PowerShell-based automation for capture media, deployment media, and offline servicing workflows
+- intentional scoping of a lab solution for local VM deployment rather than overstating it as enterprise imaging
+
+Repository:
+[winpe-deployment-lab](https://github.com/david-r-cushman/winpe-deployment-lab)
+
 ## Why This Portfolio Exists
 
 This repository is meant to make it easier for recruiters, hiring managers, and technical peers to quickly understand how I work.
@@ -79,4 +92,5 @@ Rather than collecting every script or experiment, I want this portfolio to high
 - [Portfolio Project Index](./projects/README.md)
 - [pwsh-dev-template Case Study](./projects/pwsh-dev-template.md)
 - [powershell-driver-management Case Study](./projects/powershell-driver-management.md)
+- [winpe-deployment-lab Case Study](./projects/winpe-deployment-lab.md)
 - [Portfolio Roadmap](./docs/portfolio-roadmap.md)
