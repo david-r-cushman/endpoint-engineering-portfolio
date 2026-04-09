@@ -14,6 +14,10 @@ A reusable PowerShell development template designed to support local development
 
 A practical PowerShell script from a real enterprise deployment scenario, built to remove display driver packages in a ConfigMgr-friendly form while remaining testable and maintainable.
 
+### [WinPE Deployment Lab](./winpe-deployment-lab.md)
+
+A PowerShell-driven lab project for building WinPE capture and deployment media, intended to demonstrate direct understanding of Windows imaging mechanics outside higher-level deployment products.
+
 ## Direction
 
 Additional projects can be added here over time as deeper case studies, tooling experiments, and platform work are prepared for public presentation.
