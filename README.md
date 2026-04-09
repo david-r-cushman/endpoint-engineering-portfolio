@@ -76,6 +76,19 @@ What it demonstrates:
 Repository:
 [winpe-deployment-lab](https://github.com/david-r-cushman/winpe-deployment-lab)
 
+### [GPU Cooldown Sleep](./projects/gpu-cooldown-sleep.md)
+
+A PowerShell module that monitors GPU temperature and can put a Windows system to sleep once a target cooldown threshold is reached.
+
+What it demonstrates:
+
+- hardware telemetry integration with a provider model designed for future expansion
+- safe, reviewable power-state changes via `ShouldProcess` and `-WhatIf`
+- operational UX: device selection, argument completion, and testable behavior
+
+Repository:
+[gpu-cooldown-sleep](https://github.com/david-r-cushman/gpu-cooldown-sleep)
+
 ## Why This Portfolio Exists
 
 This repository is meant to make it easier for recruiters, hiring managers, and technical peers to quickly understand how I work.
@@ -93,6 +106,7 @@ Rather than collecting every script or experiment, I want this portfolio to high
 - [pwsh-dev-template Case Study](./projects/pwsh-dev-template.md)
 - [powershell-driver-management Case Study](./projects/powershell-driver-management.md)
 - [winpe-deployment-lab Case Study](./projects/winpe-deployment-lab.md)
+- [gpu-cooldown-sleep Case Study](./projects/gpu-cooldown-sleep.md)
 - [Portfolio Roadmap](./docs/portfolio-roadmap.md)
 
 ## Usage Notice

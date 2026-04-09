@@ -18,6 +18,10 @@ A practical PowerShell script from a real enterprise deployment scenario, built 
 
 A PowerShell-driven lab project for building WinPE capture and deployment media, intended to demonstrate direct understanding of Windows imaging mechanics outside higher-level deployment products.
 
+### [GPU Cooldown Sleep](./gpu-cooldown-sleep.md)
+
+A PowerShell module that monitors GPU temperature and can put the system to sleep once a target cooldown threshold is reached, built with a provider model for future GPU vendor expansion.
+
 ## Direction
 
 Additional projects can be added here over time as deeper case studies, tooling experiments, and platform work are prepared for public presentation.

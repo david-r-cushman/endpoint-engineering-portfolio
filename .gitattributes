@@ -1,0 +1,14 @@
+# Normalize line endings in-repo to keep diffs consistent across platforms.
+* text=auto
+
+.gitattributes text eol=lf
+.editorconfig text eol=lf
+
+*.md   text eol=lf
+*.txt  text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+
+*.ps1  text eol=lf
+*.psm1 text eol=lf
+*.psd1 text eol=lf
