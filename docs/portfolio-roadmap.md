@@ -1,5 +1,7 @@
 # Portfolio Roadmap
 
+[← Portfolio](../README.md) · [Projects](../projects/README.md) · [Project Selection Criteria](./project-selection.md)
+
 This file tracks the likely next steps for turning this repository into a stronger public portfolio.
 
 ## Near-Term Additions

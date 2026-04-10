@@ -1,5 +1,7 @@
 # Project Index
 
+[← Portfolio](../README.md) · [Project Selection Criteria](../docs/project-selection.md) · [Portfolio Roadmap](../docs/portfolio-roadmap.md)
+
 This directory contains portfolio-facing summaries of the projects currently featured in this repository.
 
 The goal is to explain not just what each project does, but why it exists, what constraints shaped it, and what it says about my engineering approach.
