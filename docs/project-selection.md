@@ -1,5 +1,7 @@
 # Project Selection Notes
 
+[← Portfolio](../README.md) · [Projects](../projects/README.md) · [Portfolio Roadmap](./portfolio-roadmap.md)
+
 This portfolio should prioritize projects that demonstrate one or more of the following:
 
 - real operational use in enterprise environments

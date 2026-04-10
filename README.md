@@ -1,5 +1,7 @@
 # David R. Cushman | Endpoint Engineering Portfolio
 
+[Project Index](./projects/README.md) · [Project Selection Criteria](./docs/project-selection.md) · [Portfolio Roadmap](./docs/portfolio-roadmap.md)
+
 Senior Endpoint Engineer focused on automation, platform reliability, and disciplined change management across enterprise environments.
 
 This repository is the public landing pad for my portfolio work. It brings together the engineering approach, project documentation, and PowerShell-driven tooling behind my work in endpoint management and Microsoft platform administration.
