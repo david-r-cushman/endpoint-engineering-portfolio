@@ -23,6 +23,10 @@ Included because it comes directly from a real endpoint operations problem and d
 
 Included because it demonstrates direct understanding of WinPE, WIM servicing, and deployment mechanics that are often hidden behind higher-level tooling. Although it is intentionally scoped as a lab project rather than an enterprise deployment framework, it adds useful depth to the portfolio by showing lower-level platform knowledge and PowerShell-based workflow design.
 
+### gpu-cooldown-sleep
+
+Included because it shows disciplined PowerShell module design around a small but real operational problem. It adds a different kind of signal than the other entries by combining hardware telemetry, safe power-state automation, provider-oriented extensibility, and testable command design.
+
 ## Selection Principle
 
 The best portfolio projects are not always the biggest ones.
