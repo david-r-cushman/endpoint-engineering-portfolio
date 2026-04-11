@@ -1,5 +1,7 @@
 # Uninstall-DisplayDrivers
 
+[← Project Index](./README.md) · [Portfolio](../README.md)
+
 ## Summary
 
 `Uninstall-DisplayDrivers.ps1` is a PowerShell operational script built to remove display driver packages by using `devcon.exe`.

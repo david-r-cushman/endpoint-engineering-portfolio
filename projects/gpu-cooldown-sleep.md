@@ -1,5 +1,7 @@
 # GPU Cooldown Sleep
 
+[← Project Index](./README.md) · [Portfolio](../README.md)
+
 ## Summary
 
 `gpu-cooldown-sleep` is a PowerShell module that monitors GPU temperature and can put a Windows system to sleep once a target cooldown threshold is reached.

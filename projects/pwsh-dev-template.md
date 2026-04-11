@@ -1,5 +1,7 @@
 # PowerShell 7.4 Template: Available Anywhere
 
+[← Project Index](./README.md) · [Portfolio](../README.md)
+
 ## Summary
 
 This project is a reusable PowerShell repository template for engineers who want a consistent development baseline across local workstations, Docker Dev Containers, and GitHub Codespaces.
