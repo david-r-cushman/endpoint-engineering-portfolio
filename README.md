@@ -2,7 +2,7 @@
 
 [Project Index](./projects/README.md) · [Project Selection Criteria](./docs/project-selection.md) · [Portfolio Roadmap](./docs/portfolio-roadmap.md)
 
-![Portfolio Demo](./.assets/PortfolioIntro.gif)
+![Portfolio Demo](./assets/PortfolioIntro.gif)
 
 ## Introduction
 
