@@ -2,6 +2,8 @@
 
 [Project Index](./projects/README.md) · [Project Selection Criteria](./docs/project-selection.md) · [Portfolio Roadmap](./docs/portfolio-roadmap.md)
 
+![Portfolio Demo](./.assets/portfolio-demo.gif)
+
 ## Introduction
 
 Senior Endpoint Engineer focused on automation, platform reliability, and disciplined change management across enterprise environments.
