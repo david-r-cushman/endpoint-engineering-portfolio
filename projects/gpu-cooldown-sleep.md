@@ -1,5 +1,7 @@
 # GPU Cooldown Sleep
 
+[← Project Index](./README.md) · [Portfolio](../README.md)
+
 ## Summary
 
 `gpu-cooldown-sleep` is a PowerShell module that monitors GPU temperature and can put a Windows system to sleep once a target cooldown threshold is reached.
@@ -13,7 +15,7 @@ Repository:
 
 High-performance GPUs can stay hot after sustained load, even when active work is done.
 
-On a personal workstation, that creates a simple but real operational problem: if the system sleeps too early, it may trap heat and keep fans running longer than necessary. If it never sleeps, it wastes power and creates noise.
+On a personal workstation, that creates a simple but real operational problem: if the system goes to sleep too early, the cooling fans stop while the GPU may still be carrying significant residual heat. The goal is to let the system remain awake long enough for the GPU to cool to an acceptable temperature, then transition to sleep deliberately.
 
 This project turns that into an automation workflow that is:
 
@@ -65,4 +67,3 @@ This repo is not about building a business application. It is about showing how 
 - provider-style abstraction for hardware telemetry
 - `ShouldProcess` discipline around system-impacting actions
 - Pester-based testing with mocks for safe validation
-

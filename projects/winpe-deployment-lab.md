@@ -1,5 +1,7 @@
 # WinPE Deployment Lab
 
+[← Project Index](./README.md) · [Portfolio](../README.md)
+
 ## Summary
 
 This project is a PowerShell-driven WinPE lab for building capture and deployment media and performing offline WIM maintenance from a repository-local workflow.
