@@ -8,7 +8,7 @@ The goal is to explain not just what each project does, but why it exists, what 
 
 ## Current Projects
 
-### [PowerShell 7.4 Template: Available Anywhere](./pwsh-dev-template.md)
+### [PowerShell Development Template: Available Anywhere](./pwsh-dev-template.md)
 
 A reusable PowerShell development template designed to support local development, Dev Containers, and GitHub Codespaces without treating security and convenience as the same thing.
 

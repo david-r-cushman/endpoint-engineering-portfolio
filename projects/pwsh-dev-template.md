@@ -1,4 +1,4 @@
-# PowerShell 7.4 Template: Available Anywhere
+# PowerShell Development Template: Available Anywhere
 
 [← Project Index](./README.md) · [Portfolio](../README.md)
 
@@ -24,7 +24,7 @@ That creates several avoidable problems:
 
 ## What I Built
 
-This template establishes a baseline repository structure for PowerShell 7.4 development, including:
+This template establishes a baseline repository structure for PowerShell Core development, including:
 
 - source and test folders
 - Pester support

@@ -45,7 +45,7 @@ I care about solutions that behave predictably, hold up under pressure, and rema
 
 ## Featured Projects
 
-### [PowerShell 7.4 Template: Available Anywhere](./projects/pwsh-dev-template.md)
+### [PowerShell Development Template: Available Anywhere](./projects/pwsh-dev-template.md)
 
 A reusable PowerShell development baseline designed for local workstations, Docker Dev Containers, and GitHub Codespaces.
 
