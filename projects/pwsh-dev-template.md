@@ -32,6 +32,7 @@ This template establishes a baseline repository structure for PowerShell Core de
 - Markdown and editor configuration
 - Docker Dev Container support
 - GitHub Codespaces compatibility
+- AI-assisted development guidance through `AGENTS.md`, Copilot instructions, and supporting governance docs
 
 The template is intentionally opinionated about development hygiene. It supports flexible downstream use, but it starts from a controlled baseline instead of a blank directory.
 
@@ -53,6 +54,10 @@ The template provides structure and tooling without pretending to know the busin
 
 Linting, testing, and repo conventions are treated as part of the engineering surface, not optional cleanup for later.
 
+### AI-Assisted Guardrails
+
+The template treats AI as a drafting accelerator rather than an authority. Agent instructions, Copilot guidance, validation checks, and review expectations give AI-assisted changes a shared baseline for scope control, verification, and maintainability.
+
 ## Why This Project Belongs In The Portfolio
 
 This repo reflects how I think about engineering systems before application logic is even written.
@@ -62,6 +67,7 @@ It shows:
 - environment design as part of software reliability
 - practical security thinking in day-to-day development workflows
 - PowerShell engineering beyond one-off scripting
+- AI-assisted development guardrails that can be reused across downstream PowerShell projects
 - a preference for reusable foundations over repetitive setup work
 
 ## Good Fit For
