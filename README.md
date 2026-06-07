@@ -105,7 +105,7 @@ Rather than collecting every script or experiment, I want this portfolio to high
 
 - the problem being solved
 - the operational constraints involved
-- the engineering decisions and constraintsbehind the implementation
+- the engineering decisions and constraints behind the implementation
 - the reliability and maintainability thinking behind the result
 
 ## Explore The Work
