@@ -10,7 +10,7 @@ The goal is to explain not just what each project does, but why it exists, what 
 
 ### [PowerShell Development Template: Available Anywhere](./pwsh-dev-template.md)
 
-A reusable PowerShell development template designed to support local development, Dev Containers, and GitHub Codespaces without treating security and convenience as the same thing.
+A reusable PowerShell Core repository template with CI validation, Dev Containers, Codespaces, AI guardrails, downstream guidance sync, repo-local agent workflows, and template health reporting.
 
 ### [Uninstall-DisplayDrivers](./powershell-driver-management.md)
 
