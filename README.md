@@ -43,6 +43,8 @@ My approach to engineering was shaped early by work in a role where the margin f
 
 I care about solutions that behave predictably, hold up under pressure, and remain useful to the people who inherit them.
 
+Start with the featured projects below; each case study explains the problem, constraints, implementation choices, and engineering signal behind the work.
+
 ## Featured Projects
 
 ### [PowerShell Development Template: Available Anywhere](./projects/pwsh-dev-template.md)
