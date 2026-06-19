@@ -15,7 +15,7 @@ This portfolio should prioritize projects that demonstrate one or more of the fo
 
 ### pwsh-dev-template
 
-Included because it shows engineering maturity around environment design, tooling consistency, and reusable PowerShell foundations.
+Included because it shows engineering maturity around environment design, deterministic validation, reusable PowerShell foundations, and practical AI-assisted maintenance workflows.
 
 ### powershell-driver-management
 

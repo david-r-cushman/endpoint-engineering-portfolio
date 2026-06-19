@@ -4,9 +4,9 @@
 
 ## Summary
 
-This project is a reusable PowerShell repository template for engineers who want a consistent development baseline across local workstations, Docker Dev Containers, and GitHub Codespaces.
+This project is a reusable PowerShell Core repository template for engineers who want a consistent, validated development baseline across local workstations, Docker Dev Containers, and GitHub Codespaces.
 
-It was designed to remove a common source of friction in PowerShell work: rebuilding the same repo structure, tooling, and development environment every time a new project starts.
+It was designed to remove a common source of friction in PowerShell work: rebuilding the same repo structure, tooling, validation, AI guidance, and maintenance workflow every time a new project starts.
 
 Repository:
 [david-r-cushman/pwsh-dev-template](https://github.com/david-r-cushman/pwsh-dev-template)
@@ -19,6 +19,8 @@ That creates several avoidable problems:
 
 - new repos take too long to bootstrap
 - testing and linting differ across environments
+- runtime and tooling versions drift across docs, containers, and CI
+- AI-assisted changes can become inconsistent without shared rules and validation boundaries
 - developers leak convenience tooling and credentials into places they do not really belong
 - project quality depends too heavily on workstation drift
 
@@ -27,12 +29,19 @@ That creates several avoidable problems:
 This template establishes a baseline repository structure for PowerShell Core development, including:
 
 - source and test folders
+- reusable script, function, module, and test scaffolds
 - Pester support
 - PSScriptAnalyzer support
+- GitHub Actions CI validation
 - Markdown and editor configuration
 - Docker Dev Container support
 - GitHub Codespaces compatibility
+- runtime and tooling policy tracked through `eng/runtime-policy.json`
+- generated Markdown validation so documented runtime details stay aligned with policy
 - AI-assisted development guidance through `AGENTS.md`, Copilot instructions, and supporting governance docs
+- downstream AI guidance sync for repositories created from the template
+- repo-local agent skills for guidance sync, runtime policy updates, and template release management
+- a template health report for maintainers and agents to inspect the current baseline before deeper work
 
 The template is intentionally opinionated about development hygiene. It supports flexible downstream use, but it starts from a controlled baseline instead of a blank directory.
 
@@ -50,9 +59,13 @@ The project separates host-editor convenience from container execution. That mat
 
 The template provides structure and tooling without pretending to know the business logic of downstream projects.
 
-### Operational Discipline
+### Deterministic Validation
 
-Linting, testing, and repo conventions are treated as part of the engineering surface, not optional cleanup for later.
+Pester, PSScriptAnalyzer, GitHub Actions, version-policy checks, generated Markdown checks, and template-health reporting give the template a repeatable way to detect drift before it becomes project debt.
+
+### Agent-Friendly Maintenance
+
+The template treats agents as workflow coordinators, not as a replacement for engineering judgment. Repo-local skills point agents toward deterministic scripts, Pester coverage, diff review, and pull requests for repeatable maintenance tasks.
 
 ### AI-Assisted Guardrails
 
@@ -67,7 +80,9 @@ It shows:
 - environment design as part of software reliability
 - practical security thinking in day-to-day development workflows
 - PowerShell engineering beyond one-off scripting
+- deterministic validation through Pester, PSScriptAnalyzer, CI, and policy checks
 - AI-assisted development guardrails that can be reused across downstream PowerShell projects
+- small, tested maintenance utilities that agents can operate instead of improvising repo changes
 - a preference for reusable foundations over repetitive setup work
 
 ## Good Fit For
@@ -77,4 +92,6 @@ This project is especially relevant to teams working on:
 - internal PowerShell tooling
 - Azure or Microsoft 365 automation
 - endpoint engineering utilities
+- AI-assisted scripting workflows that still require reviewable, repeatable controls
 - repeatable engineering baselines for small platform teams
+- multiple PowerShell repositories that need shared guidance without clobbering project-owned code
