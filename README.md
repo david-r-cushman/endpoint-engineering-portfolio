@@ -19,6 +19,8 @@ My background includes enterprise endpoint engineering in financial services and
 - Active Directory and Group Policy
 - Microsoft 365, Azure, and security-aligned platform administration
 
+Professional profile: [LinkedIn](https://www.linkedin.com/in/davidrcushman/).
+
 ## What I Bring
 
 I build endpoint and automation solutions for environments where reliability matters, operational drift is expensive, and change has to be handled deliberately.
