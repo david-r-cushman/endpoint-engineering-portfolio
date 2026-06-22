@@ -18,6 +18,8 @@ Update a portfolio project page when a referenced project has changed in a way t
 
 Do not update the portfolio for every routine project commit. Small fixes, internal refactors, dependency bumps, and release housekeeping usually do not need portfolio changes unless they materially change the story a reader should see.
 
+When a referenced project adds durable ADRs, governance boundaries, or maintenance workflows that change the engineering signal, summarize the reader-facing meaning without copying the ADR text or turning the portfolio into a release archive.
+
 ## Project Page Checklist
 
 Each project page should make these points easy to find:
