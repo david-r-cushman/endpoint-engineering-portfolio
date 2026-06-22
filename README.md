@@ -49,13 +49,13 @@ Start with the featured projects below; each case study explains the problem, co
 
 ### [PowerShell Development Template: Available Anywhere](./projects/pwsh-dev-template.md)
 
-A reusable PowerShell Core repository template with CI validation, Dev Containers, AI guardrails, downstream guidance sync, repo-local agent workflows, and template health reporting.
+A reusable PowerShell Core repository template with CI validation, Dev Containers, AI guardrails, ADR-backed decisions, downstream guidance sync, repo-local agent workflows, and template health reporting.
 
 What it demonstrates:
 
 - repeatable PowerShell development across local, Dev Container, and GitHub Codespaces environments
 - deterministic validation with Pester, PSScriptAnalyzer, and GitHub Actions
-- AI-assisted workflows controlled by guidance, scripts, health checks, and reviewed pull requests
+- AI-assisted workflows controlled by guidance, deterministic scripts, ADRs, health checks, and reviewed pull requests
 
 Repository:
 [pwsh-dev-template](https://github.com/david-r-cushman/pwsh-dev-template)

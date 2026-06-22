@@ -6,7 +6,7 @@
 
 This project is a reusable PowerShell Core repository template for engineers who want a consistent, validated development baseline across local workstations, Docker Dev Containers, and GitHub Codespaces.
 
-It was designed to remove a common source of friction in PowerShell work: rebuilding the same repo structure, tooling, validation, AI guidance, and maintenance workflow every time a new project starts.
+It was designed to remove a common source of friction in PowerShell work: rebuilding the same repo structure, tooling, validation, AI guidance, decision-record scaffolding, and maintenance workflow every time a new project starts.
 
 Repository:
 [david-r-cushman/pwsh-dev-template](https://github.com/david-r-cushman/pwsh-dev-template)
@@ -39,8 +39,10 @@ This template establishes a baseline repository structure for PowerShell Core de
 - runtime and tooling policy tracked through `eng/runtime-policy.json`
 - generated Markdown validation so documented runtime details stay aligned with policy
 - AI-assisted development guidance through `AGENTS.md`, Copilot instructions, and supporting governance docs
-- downstream AI guidance sync for repositories created from the template
+- downstream AI guidance and ADR scaffold sync for repositories created from the template
+- Architecture Decision Records for durable template decisions and workflow boundaries
 - repo-local agent skills for guidance sync, runtime policy updates, and template release management
+- release/version governance through validation, changelog entries, annotated tags, and GitHub Release guidance
 - a template health report for maintainers and agents to inspect the current baseline before deeper work
 
 The template is intentionally opinionated about development hygiene. It supports flexible downstream use, but it starts from a controlled baseline instead of a blank directory.
@@ -61,15 +63,15 @@ The template provides structure and tooling without pretending to know the busin
 
 ### Deterministic Validation
 
-Pester, PSScriptAnalyzer, GitHub Actions, version-policy checks, generated Markdown checks, and template-health reporting give the template a repeatable way to detect drift before it becomes project debt.
+Pester, PSScriptAnalyzer, GitHub Actions, version-policy checks, generated Markdown checks, template-version checks, and template-health reporting give the template a repeatable way to detect drift before it becomes project debt.
 
 ### Agent-Friendly Maintenance
 
-The template treats agents as workflow coordinators, not as a replacement for engineering judgment. Repo-local skills point agents toward deterministic scripts, Pester coverage, diff review, and pull requests for repeatable maintenance tasks.
+The template treats agents as workflow coordinators, not as a replacement for engineering judgment. Repo-local skills point agents toward deterministic scripts, Pester coverage, diff review, release validation, and pull requests for repeatable maintenance tasks.
 
 ### AI-Assisted Guardrails
 
-The template treats AI as a drafting accelerator rather than an authority. Agent instructions, Copilot guidance, validation checks, and review expectations give AI-assisted changes a shared baseline for scope control, verification, and maintainability.
+The template treats AI as a drafting accelerator rather than an authority. Agent instructions, Copilot guidance, ADRs, validation checks, and review expectations give AI-assisted changes a shared baseline for scope control, verification, and maintainability.
 
 ## Why This Project Belongs In The Portfolio
 
@@ -80,7 +82,8 @@ It shows:
 - environment design as part of software reliability
 - practical security thinking in day-to-day development workflows
 - PowerShell engineering beyond one-off scripting
-- deterministic validation through Pester, PSScriptAnalyzer, CI, and policy checks
+- deterministic validation through Pester, PSScriptAnalyzer, CI, policy checks, and release metadata checks
+- ADR-backed workflow boundaries for downstream sync, agent workflows, and release decisions
 - AI-assisted development guardrails that can be reused across downstream PowerShell projects
 - small, tested maintenance utilities that agents can operate instead of improvising repo changes
 - a preference for reusable foundations over repetitive setup work
