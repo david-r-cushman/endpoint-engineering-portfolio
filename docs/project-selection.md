@@ -17,6 +17,10 @@ This portfolio should prioritize projects that demonstrate one or more of the fo
 
 Included because it shows engineering maturity around environment design, deterministic validation, reusable PowerShell foundations, and practical AI-assisted maintenance workflows.
 
+### powershell-dev-template
+
+Included because it shows how the same engineering discipline can be adapted for Windows PowerShell 5.1 without pretending that a modern cross-platform environment fits every project. It demonstrates runtime-aware judgment for Windows-only and legacy-module work while preserving testing, analysis, CI, documentation, and AI-assisted maintenance controls.
+
 ### powershell-driver-management
 
 Included because it comes directly from a real endpoint operations problem and demonstrates practical script design under deployment constraints.
