@@ -12,6 +12,10 @@ The goal is to explain not just what each project does, but why it exists, what 
 
 A reusable PowerShell Core repository template with CI validation, Dev Containers, Codespaces, AI guardrails, ADR-backed decisions, downstream guidance sync, repo-local agent workflows, and template health reporting.
 
+### [Windows PowerShell 5.1 Development Template](./powershell-dev-template.md)
+
+A reusable Windows PowerShell 5.1 repository template with native Windows development, Windows-hosted CI, deterministic testing and analysis, AI guardrails, an ADR-backed runtime boundary, downstream guidance sync, and template maintenance workflows.
+
 ### [Uninstall-DisplayDrivers](./powershell-driver-management.md)
 
 A practical PowerShell script from a real enterprise deployment scenario, built to remove display driver packages in a ConfigMgr-friendly form while remaining testable and maintainable.

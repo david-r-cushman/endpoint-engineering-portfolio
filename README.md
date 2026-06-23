@@ -62,6 +62,19 @@ What it demonstrates:
 Repository:
 [pwsh-dev-template](https://github.com/david-r-cushman/pwsh-dev-template)
 
+### [Windows PowerShell 5.1 Development Template](./projects/powershell-dev-template.md)
+
+A reusable repository template for Windows PowerShell 5.1 projects that need a native Windows development baseline, Windows-hosted CI, and the same testing, analysis, governance, and maintenance discipline used in the modern PowerShell template.
+
+What it demonstrates:
+
+- runtime fidelity for Windows-only, .NET Framework, and legacy-module work
+- deterministic validation with Pester, PSScriptAnalyzer, and GitHub Actions on Windows
+- deliberate removal of unsupported container workflows instead of adding misleading or unnecessary complexity
+
+Repository:
+[powershell-dev-template](https://github.com/david-r-cushman/powershell-dev-template)
+
 ### [Uninstall-DisplayDrivers](./projects/powershell-driver-management.md)
 
 A PowerShell script built from a real ConfigMgr deployment scenario to remove display driver packages with `devcon.exe`.
@@ -116,6 +129,7 @@ Rather than collecting every script or experiment, I want this portfolio to high
 
 - [Portfolio Project Index](./projects/README.md)
 - [pwsh-dev-template Case Study](./projects/pwsh-dev-template.md)
+- [powershell-dev-template Case Study](./projects/powershell-dev-template.md)
 - [powershell-driver-management Case Study](./projects/powershell-driver-management.md)
 - [winpe-deployment-lab Case Study](./projects/winpe-deployment-lab.md)
 - [gpu-cooldown-sleep Case Study](./projects/gpu-cooldown-sleep.md)
