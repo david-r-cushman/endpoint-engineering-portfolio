@@ -4,11 +4,27 @@
 
 ![Portfolio Demo](./assets/PortfolioIntro.gif)
 
-## Introduction
+Senior Endpoint Engineer focused on PowerShell automation, endpoint management, and platform reliability across enterprise environments.
 
-Senior Endpoint Engineer focused on automation, platform reliability, and disciplined change management across enterprise environments.
+This portfolio shows how I approach engineering work that has to stay reliable, maintainable, and reviewable over time. It brings together reusable PowerShell development foundations, applied endpoint and automation projects, and the documentation that explains the constraints and decisions behind them.
 
-This repository is the public landing pad for my portfolio work. It brings together the engineering approach, project documentation, and PowerShell-driven tooling behind my work in endpoint management and Microsoft platform administration.
+## What This Portfolio Demonstrates
+
+- reusable PowerShell engineering foundations for both PowerShell 7 and Windows PowerShell 5.1
+- applied endpoint and automation projects shaped by real operational constraints
+- AI-assisted engineering governed through explicit guidance, validation, review, and maintenance workflows
+
+In practical terms, the portfolio works in three layers: this landing repo explains the overall approach, the template repos define the engineering baseline, and downstream project repos show that baseline applied to real work.
+
+## How I Use AI
+
+I treat AI as a drafting accelerator, not as a substitute for engineering judgment.
+
+A meaningful part of my work is defining how AI-assisted changes are constrained, reviewed, validated, and kept aligned over time. That matters because fast output is not enough on its own. The work still has to remain correct, maintainable, and trustworthy after it is produced.
+
+That governance is not the end goal by itself. It is part of how I produce better automation, clearer standards, and more reliable outcomes.
+
+## Background
 
 My background includes enterprise endpoint engineering in financial services and energy infrastructure, with practical experience in:
 
@@ -21,7 +37,7 @@ My background includes enterprise endpoint engineering in financial services and
 
 Professional profile: [LinkedIn](https://www.linkedin.com/in/davidrcushman/).
 
-## What I Bring
+## What I Build
 
 I build endpoint and automation solutions for environments where reliability matters, operational drift is expensive, and change has to be handled deliberately.
 
@@ -32,84 +48,64 @@ The work I am most drawn to sits at the intersection of:
 - platform modernization across on-prem and cloud-connected tooling
 - documentation and process design that make systems supportable over time
 
-I also apply a structured, AI-assisted development approach as part of that same focus on consistency and maintainability. AI is used as a drafting accelerator, while constraints, scope boundaries, and review practices ensure that the final result remains aligned with real-world operational needs rather than over-engineered or purely theoretical solutions.
-
-## Engineering Mindset
-
-My approach to engineering was shaped early by work in a role where the margin for error was effectively zero. That experience still informs how I design and evaluate technical work now:
+My approach to engineering was shaped early by work in a role where the margin for error was effectively zero. That experience still informs how I evaluate technical work now:
 
 - if a step is not verified, it is not complete
 - automation should reduce risk, not just save time
 - operational tooling should be maintainable long after the first deployment
 - clear documentation preserves engineering intent, not just implementation detail
 
-I care about solutions that behave predictably, hold up under pressure, and remain useful to the people who inherit them.
-
 Start with the featured projects below; each case study explains the problem, constraints, implementation choices, and engineering signal behind the work.
 
 ## Featured Projects
 
-### [PowerShell Development Template: Available Anywhere](./projects/pwsh-dev-template.md)
+### Foundations
+
+#### [PowerShell Development Template: Available Anywhere](./projects/pwsh-dev-template.md)
 
 A reusable PowerShell Core repository template with CI validation, Dev Containers, AI guardrails, ADR-backed decisions, downstream guidance sync, repo-local agent workflows, and template health reporting.
 
-What it demonstrates:
-
-- repeatable PowerShell development across local, Dev Container, and GitHub Codespaces environments
-- deterministic validation with Pester, PSScriptAnalyzer, and GitHub Actions
-- AI-assisted workflows controlled by guidance, deterministic scripts, ADRs, health checks, and reviewed pull requests
+Best signal: reusable engineering standards, deterministic validation, and AI-governed maintenance workflows for modern PowerShell work.
 
 Repository:
 [pwsh-dev-template](https://github.com/david-r-cushman/pwsh-dev-template)
 
-### [Windows PowerShell 5.1 Development Template](./projects/powershell-dev-template.md)
+#### [Windows PowerShell 5.1 Development Template](./projects/powershell-dev-template.md)
 
 A reusable repository template for Windows PowerShell 5.1 projects that need a native Windows development baseline, Windows-hosted CI, and the same testing, analysis, governance, and maintenance discipline used in the modern PowerShell template.
 
-What it demonstrates:
-
-- runtime fidelity for Windows-only, .NET Framework, and legacy-module work
-- deterministic validation with Pester, PSScriptAnalyzer, and GitHub Actions on Windows
-- deliberate removal of unsupported container workflows instead of adding misleading or unnecessary complexity
+Best signal: runtime-aware engineering judgment for legacy and Windows-only PowerShell work without giving up validation discipline.
 
 Repository:
 [powershell-dev-template](https://github.com/david-r-cushman/powershell-dev-template)
 
-### [Uninstall-DisplayDrivers](./projects/powershell-driver-management.md)
+### Applied Projects
+
+If you want the quickest view of hands-on implementation work, start here.
+
+#### [Uninstall-DisplayDrivers](./projects/powershell-driver-management.md)
 
 A PowerShell script built from a real ConfigMgr deployment scenario to remove display driver packages with `devcon.exe`.
 
-What it demonstrates:
-
-- practical problem-solving rooted in an enterprise endpoint use case
-- preserving deployment fit while improving structure and testability
-- safety guardrails and explicit operational reporting through exit codes
+Best signal: practical ConfigMgr-oriented scripting shaped by real deployment constraints, safety guardrails, and operational reporting.
 
 Repository:
 [powershell-driver-management](https://github.com/david-r-cushman/powershell-driver-management)
 
-### [WinPE Deployment Lab](./projects/winpe-deployment-lab.md)
+#### [WinPE Deployment Lab](./projects/winpe-deployment-lab.md)
 
 A PowerShell-driven WinPE lab for building capture and deployment media and working directly with offline WIM maintenance.
 
-What it demonstrates:
-
-- hands-on understanding of WinPE and Windows imaging mechanics beyond ConfigMgr and MDT abstractions
-- PowerShell-based automation for capture media, deployment media, and offline servicing workflows
-- intentional scoping of a lab solution for local VM deployment rather than overstating it as enterprise imaging
+Best signal: hands-on platform depth in Windows imaging and offline servicing, with scoped automation that stays technically honest.
 
 Repository:
 [winpe-deployment-lab](https://github.com/david-r-cushman/winpe-deployment-lab)
 
-### [GPU Cooldown Sleep](./projects/gpu-cooldown-sleep.md)
+#### [GPU Cooldown Sleep](./projects/gpu-cooldown-sleep.md)
 
 A PowerShell module that monitors GPU temperature and can put a Windows system to sleep once a target cooldown threshold is reached.
 
-What it demonstrates:
-
-- hardware telemetry integration with a provider model designed for future expansion
-- safe, reviewable power-state changes via `ShouldProcess` and `-WhatIf`
-- operational UX: device selection, argument completion, and testable behavior
+Best signal: disciplined module design that combines hardware telemetry, safe state changes, and testable operational UX.
 
 Repository:
 [gpu-cooldown-sleep](https://github.com/david-r-cushman/gpu-cooldown-sleep)
