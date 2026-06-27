@@ -6,7 +6,7 @@
 
 This project is a reusable PowerShell Core repository template for engineers who want a consistent, validated development baseline across local workstations, Docker Dev Containers, and GitHub Codespaces.
 
-It was designed to remove a common source of friction in PowerShell work: rebuilding the same repo structure, tooling, validation, AI guidance, decision-record scaffolding, and maintenance workflow every time a new project starts.
+It shows how I standardize reliable project setup, validation, and AI-assisted maintenance without letting that governance overshadow delivery quality.
 
 Repository:
 [david-r-cushman/pwsh-dev-template](https://github.com/david-r-cushman/pwsh-dev-template)
@@ -42,7 +42,7 @@ This template establishes a baseline repository structure for PowerShell Core de
 - downstream AI guidance and ADR scaffold sync for repositories created from the template
 - Architecture Decision Records for durable template decisions and workflow boundaries
 - repo-local agent skills for guidance sync, runtime policy updates, and template release management
-- release/version governance through validation, changelog entries, annotated tags, and GitHub Release guidance
+- release/version governance through validation, changelog entries, and GitHub Release guidance
 - a template health report for maintainers and agents to inspect the current baseline before deeper work
 
 The template is intentionally opinionated about development hygiene. It supports flexible downstream use, but it starts from a controlled baseline instead of a blank directory.

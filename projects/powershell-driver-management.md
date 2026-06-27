@@ -6,7 +6,7 @@
 
 `Uninstall-DisplayDrivers.ps1` is a PowerShell operational script built to remove display driver packages by using `devcon.exe`.
 
-Unlike a demo script, this came from a real enterprise deployment problem during a Windows upgrade effort managed through Microsoft Configuration Manager.
+This is one of the clearest examples in the portfolio of hands-on endpoint scripting shaped by a real deployment constraint rather than a hypothetical exercise.
 
 Repository:
 [david-r-cushman/powershell-driver-management](https://github.com/david-r-cushman/powershell-driver-management)
@@ -54,7 +54,7 @@ Explicit exit codes make the script more useful in managed deployment contexts w
 
 ## Why This Project Belongs In The Portfolio
 
-This project represents the kind of work I care most about:
+This project represents the kind of applied work I care most about:
 
 - solving a real enterprise problem
 - respecting deployment reality instead of rewriting for aesthetics
