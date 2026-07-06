@@ -6,7 +6,7 @@
 
 This project is a reusable PowerShell Core repository template for engineers who want a consistent, validated development baseline across local workstations, Docker Dev Containers, and GitHub Codespaces.
 
-It shows how I standardize reliable project setup, validation, and AI-assisted maintenance without letting that governance overshadow delivery quality.
+It shows how I standardize reliable project setup, repeatable validation, and AI-assisted maintenance without letting governance overshadow delivery quality.
 
 Repository:
 [david-r-cushman/pwsh-dev-template](https://github.com/david-r-cushman/pwsh-dev-template)
@@ -71,7 +71,7 @@ The template treats agents as workflow coordinators, not as a replacement for en
 
 ### AI-Assisted Guardrails
 
-The template treats AI as a drafting accelerator rather than an authority. Agent instructions, Copilot guidance, ADRs, validation checks, and review expectations give AI-assisted changes a shared baseline for scope control, verification, and maintainability.
+The template treats AI as a drafting accelerator rather than an authority. Agent instructions, Copilot guidance, ADRs, validation checks, and review expectations give AI-assisted changes a governable baseline for scope control, verification, and maintainability.
 
 ## Why This Project Belongs In The Portfolio
 

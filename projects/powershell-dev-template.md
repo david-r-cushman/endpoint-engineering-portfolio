@@ -13,7 +13,7 @@ Repository:
 
 ## Problem Space
 
-Windows PowerShell 5.1 remains relevant for endpoint engineering and Microsoft platform work where the supported runtime, module, or API is tied to Windows and the Desktop edition.
+Windows PowerShell 5.1 remains relevant for endpoint engineering and Microsoft 365-adjacent platform work where the supported runtime, module, or API is tied to Windows and the Desktop edition.
 
 Using a modern PowerShell environment as a substitute can hide compatibility problems until deployment. Trying to reproduce Windows PowerShell inside the existing Linux Dev Container model would also create an environment that does not faithfully represent the target runtime.
 

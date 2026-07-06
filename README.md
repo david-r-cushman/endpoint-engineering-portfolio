@@ -4,15 +4,17 @@
 
 ![Portfolio Demo](./assets/PortfolioIntro.gif)
 
-Senior Endpoint Engineer focused on PowerShell automation, endpoint management, and platform reliability across enterprise environments.
+Endpoint Engineer focused on PowerShell automation, endpoint management, and platform reliability across enterprise environments.
 
-This portfolio shows how I approach engineering work that has to stay reliable, maintainable, and reviewable over time. It brings together reusable PowerShell development foundations, applied endpoint and automation projects, and the documentation that explains the constraints and decisions behind them.
+Reliable. Repeatable. Governable.
+
+This portfolio shows how I approach engineering work that has to be reliable in production, repeatable across teams and environments, and governable over time. It brings together reusable PowerShell development foundations, applied endpoint and automation projects, and the documentation that explains the constraints and decisions behind them.
 
 ## What This Portfolio Demonstrates
 
 - reusable PowerShell engineering foundations for both PowerShell 7 and Windows PowerShell 5.1
 - applied endpoint and automation projects shaped by real operational constraints
-- AI-assisted engineering governed through explicit guidance, validation, review, and maintenance workflows
+- AI-assisted engineering shaped by explicit guidance, validation, review, and maintenance workflows
 
 In practical terms, the portfolio works in three layers: this landing repo explains the overall approach, the template repos define the engineering baseline, and downstream project repos show that baseline applied to real work.
 
@@ -22,7 +24,7 @@ I treat AI as a drafting accelerator, not as a substitute for engineering judgme
 
 A meaningful part of my work is defining how AI-assisted changes are constrained, reviewed, validated, and kept aligned over time. That matters because fast output is not enough on its own. The work still has to remain correct, maintainable, and trustworthy after it is produced.
 
-That governance is not the end goal by itself. It is part of how I produce better automation, clearer standards, and more reliable outcomes.
+That governance is not the end goal by itself. It is part of how I produce automation that stays reliable, repeatable, and governable after the first draft is written.
 
 ## Background
 
@@ -48,12 +50,22 @@ The work I am most drawn to sits at the intersection of:
 - platform modernization across on-prem and cloud-connected tooling
 - documentation and process design that make systems supportable over time
 
-My approach to engineering was shaped early by work in a role where the margin for error was effectively zero. That experience still informs how I evaluate technical work now:
+My approach to engineering was shaped early by work in a role where the margin for error was effectively zero. That experience still informs how I evaluate technical work now.
+
+Reliable means the work is verified, dependable, and safe to trust in production:
 
 - if a step is not verified, it is not complete
 - automation should reduce risk, not just save time
+
+Repeatable means the result should hold up across operators, environments, and future maintenance:
+
 - operational tooling should be maintainable long after the first deployment
+- good engineering baselines should reduce drift instead of depending on tribal knowledge
+
+Governable means change should stay reviewable, bounded, and understandable over time:
+
 - clear documentation preserves engineering intent, not just implementation detail
+- automation should be guided by standards, guardrails, and explicit review boundaries
 
 Start with the featured projects below; each case study explains the problem, constraints, implementation choices, and engineering signal behind the work.
 

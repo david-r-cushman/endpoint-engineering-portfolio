@@ -8,8 +8,10 @@ This portfolio should prioritize projects that demonstrate one or more of the fo
 - technically honest lab work that demonstrates meaningful platform depth
 - clear automation value
 - strong safety or guardrail design
-- evidence of maintainability, testing, or documentation discipline
-- relevance to endpoint engineering, hybrid management, or Microsoft platform administration
+- reliable outcomes under real operational constraints
+- repeatable workflows, validation, or engineering baselines
+- governable change through documentation, review boundaries, or maintenance controls
+- relevance to endpoint engineering, hybrid management, or Microsoft 365-aligned platform administration
 
 ## Included First
 
@@ -37,4 +39,4 @@ Included because it shows disciplined PowerShell module design around a small bu
 
 The best portfolio projects are not always the biggest ones.
 
-They are the ones that most clearly show judgment, operational awareness, technical depth, and the ability to turn messy real-world needs into reliable technical outcomes.
+They are the ones that most clearly show judgment, operational awareness, technical depth, and the ability to turn messy real-world needs into reliable, repeatable, and governable technical outcomes.

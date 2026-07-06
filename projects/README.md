@@ -6,6 +6,8 @@ This directory contains portfolio-facing summaries of the projects currently fea
 
 The goal is to explain not just what each project does, but why it exists, what constraints shaped it, and what it says about my engineering approach.
 
+The common thread across these case studies is simple: reliable results, repeatable workflows, and governable change.
+
 ## Current Projects
 
 ### [PowerShell Development Template: Available Anywhere](./pwsh-dev-template.md)
@@ -18,7 +20,7 @@ A reusable Windows PowerShell 5.1 repository template with native Windows develo
 
 ### [Uninstall-DisplayDrivers](./powershell-driver-management.md)
 
-A practical PowerShell script from a real enterprise deployment scenario, built to remove display driver packages in a ConfigMgr-friendly form while remaining testable and maintainable.
+A practical PowerShell script from a real enterprise deployment scenario, built to remove display driver packages in a ConfigMgr-friendly form while remaining testable, reliable, and maintainable.
 
 ### [WinPE Deployment Lab](./winpe-deployment-lab.md)
 
@@ -30,4 +32,4 @@ A PowerShell module that monitors GPU temperature and can put the system to slee
 
 ## Direction
 
-Additional projects can be added here over time as deeper case studies, tooling experiments, and platform work are prepared for public presentation.
+Additional projects can be added here over time as deeper case studies, tooling experiments, and endpoint engineering work are prepared for public presentation.
