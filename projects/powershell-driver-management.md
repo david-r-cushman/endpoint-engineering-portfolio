@@ -59,7 +59,7 @@ This project represents the kind of applied work I care most about:
 - solving a real enterprise problem
 - respecting deployment reality instead of rewriting for aesthetics
 - improving maintainability and testability without losing operational fit
-- treating reliability and safety as first-class requirements
+- treating reliability, repeatability, and safety as first-class requirements
 
 ## What It Demonstrates
 
