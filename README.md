@@ -131,7 +131,7 @@ Rather than collecting every script or experiment, I want this portfolio to high
 - the problem being solved
 - the operational constraints involved
 - the engineering decisions and constraints behind the implementation
-- the reliability and maintainability thinking behind the result
+- the reliable, repeatable, and governable thinking behind the result
 
 ## Explore The Work
 
@@ -148,3 +148,4 @@ Rather than collecting every script or experiment, I want this portfolio to high
 This repository is provided for portfolio and evaluation purposes.
 
 See [`NOTICE.md`](./NOTICE.md) for rights and usage details.
+
