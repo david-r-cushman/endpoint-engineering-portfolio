@@ -4,11 +4,11 @@
 
 ![Portfolio Demo](./assets/PortfolioIntro.gif)
 
-Endpoint Engineer focused on PowerShell automation, endpoint management, and platform reliability across enterprise environments.
+Endpoint Engineer focused on PowerShell automation, endpoint management, and reliable platform operations across enterprise environments.
 
 Reliable. Repeatable. Governable.
 
-This portfolio shows how I approach engineering work that has to be reliable in production, repeatable across teams and environments, and governable over time. It brings together reusable PowerShell development foundations, applied endpoint and automation projects, and the documentation that explains the constraints and decisions behind them.
+This portfolio shows how I approach engineering work that has to be reliable in production, repeatable across teams and environments, and governable over time. It brings together reusable PowerShell foundations, applied endpoint work, and the documentation that explains the constraints and decisions behind it.
 
 ## What This Portfolio Demonstrates
 
@@ -16,15 +16,15 @@ This portfolio shows how I approach engineering work that has to be reliable in 
 - applied endpoint and automation projects shaped by real operational constraints
 - AI-assisted engineering shaped by explicit guidance, validation, review, and maintenance workflows
 
-In practical terms, the portfolio works in three layers: this landing repo explains the overall approach, the template repos define the engineering baseline, and downstream project repos show that baseline applied to real work.
+In practical terms, the portfolio works in three layers. This landing repo explains the overall approach, the template repos define the engineering baseline, and downstream project repos show that baseline applied to real work.
 
 ## How I Use AI
 
 I treat AI as a drafting accelerator, not as a substitute for engineering judgment.
 
-A meaningful part of my work is defining how AI-assisted changes are constrained, reviewed, validated, and kept aligned over time. That matters because fast output is not enough on its own. The work still has to remain correct, maintainable, and trustworthy after it is produced.
+Part of my work is defining how AI-assisted changes are constrained, reviewed, validated, and kept aligned over time. Fast output is not enough on its own. The work still has to remain correct, maintainable, and trustworthy after it is produced.
 
-That governance is not the end goal by itself. It is part of how I produce automation that stays reliable, repeatable, and governable after the first draft is written.
+That governance is not the end goal. It is part of how I produce automation that stays reliable, repeatable, and governable after the first draft.
 
 ## Background
 
@@ -41,7 +41,7 @@ Professional profile: [LinkedIn](https://www.linkedin.com/in/davidrcushman/).
 
 ## What I Build
 
-I build endpoint and automation solutions for environments where reliability matters, operational drift is expensive, and change has to be handled deliberately.
+I build endpoint and automation solutions for environments where reliability matters, drift is expensive, and change has to be handled deliberately.
 
 The work I am most drawn to sits at the intersection of:
 
@@ -67,7 +67,7 @@ Governable means change should stay reviewable, bounded, and understandable over
 - clear documentation preserves engineering intent, not just implementation detail
 - automation should be guided by standards, guardrails, and explicit review boundaries
 
-Start with the featured projects below; each case study explains the problem, constraints, implementation choices, and engineering signal behind the work.
+Start with the featured projects below. Each case study explains the problem, constraints, implementation choices, and engineering signal behind the work.
 
 ## Featured Projects
 
@@ -84,7 +84,7 @@ Repository:
 
 #### [Windows PowerShell 5.1 Development Template](./projects/powershell-dev-template.md)
 
-A reusable repository template for Windows PowerShell 5.1 projects that need a native Windows development baseline, Windows-hosted CI, and the same testing, analysis, governance, and maintenance discipline used in the modern PowerShell template.
+A reusable repository template for Windows PowerShell 5.1 projects that need a native Windows development baseline, Windows-hosted CI, and the same testing, analysis, governance, and maintenance discipline as the modern PowerShell template.
 
 Best signal: runtime-aware engineering judgment for legacy and Windows-only PowerShell work without giving up validation discipline.
 
@@ -106,7 +106,7 @@ Repository:
 
 #### [WinPE Deployment Lab](./projects/winpe-deployment-lab.md)
 
-A PowerShell-driven WinPE lab for building capture and deployment media and working directly with offline WIM maintenance.
+A PowerShell-driven WinPE lab for building capture and deployment media while working directly with offline WIM maintenance.
 
 Best signal: hands-on platform depth in Windows imaging and offline servicing, with scoped automation that stays technically honest.
 
@@ -124,7 +124,7 @@ Repository:
 
 ## Why This Portfolio Exists
 
-This repository is meant to make it easier for recruiters, hiring managers, and technical peers to quickly understand how I work.
+This repository is meant to help recruiters, hiring managers, and technical peers quickly understand how I work.
 
 Rather than collecting every script or experiment, I want this portfolio to highlight a smaller number of projects that clearly show:
 
