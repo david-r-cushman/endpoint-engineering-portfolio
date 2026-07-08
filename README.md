@@ -4,11 +4,34 @@
 
 ![Portfolio Demo](./assets/PortfolioIntro.gif)
 
-Endpoint Engineer focused on PowerShell automation, endpoint management, and reliable platform operations across enterprise environments.
+## About Me
 
-Reliable. Repeatable. Governable.
+I build endpoint platforms and engineering foundations for Microsoft environments, with a focus on PowerShell automation, governance, and reliability.
 
-This portfolio shows how I approach engineering work that has to be reliable in production, repeatable across teams and environments, and governable over time. It brings together reusable PowerShell foundations, applied endpoint work, and the documentation that explains the constraints and decisions behind it.
+## Reliable. Repeatable. Governable.
+
+This portfolio demonstrates how I approach engineering work that must be reliable in production, repeatable across teams and environments, and governable over time. It brings together reusable PowerShell foundations, applied endpoint work, and the documentation that explains the constraints and decisions behind it.
+
+### Reliable
+
+Engineering should produce systems that are dependable, verifiable, and safe to trust in production.
+
+- if a step is not verified, it is not complete
+- automation should reduce operational risk, not simply save time
+
+### Repeatable
+
+Engineering should produce results that remain consistent across operators, environments, and future maintenance.
+
+- reusable engineering foundations should reduce environmental drift
+- automation should remain maintainable throughout its lifecycle
+
+### Governable
+
+Engineering should remain understandable, reviewable, and maintainable as systems evolve.
+
+- documentation should preserve engineering intent, not just implementation details
+- automation should be guided by standards, validation, and explicit review boundaries
 
 ## What This Portfolio Demonstrates
 
