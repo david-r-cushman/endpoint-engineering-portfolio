@@ -35,11 +35,9 @@ Engineering should remain understandable, reviewable, and maintainable as system
 
 ## How To Read This Portfolio
 
-This portfolio is organized around practical engineering investigations in endpoint engineering and automation.
+This portfolio is organized around practical engineering investigations in endpoint engineering and automation. Each featured repository explores the technologies, underlying mechanics, abstractions, constraints, and tradeoffs behind an operational problem.
 
-The implementations in this portfolio are not presented as isolated examples of working code. They are presented as evidence of engineering work into the technologies, abstractions, constraints, and tradeoffs behind modern endpoint management and PowerShell automation.
-
-Each featured repository begins with an engineering question, explores the relevant mechanics and decisions, and produces a working implementation that helps demonstrate the resulting understanding. The code matters, but it is only part of the evidence. The documentation, architecture, ADRs, tests, CI, validation, and implementation choices collectively show how I approach engineering work.
+The resulting implementation is intended to demonstrate that understanding rather than stand on its own as the claim. The code matters, but it is only part of the evidence. The documentation, architecture, ADRs, tests, CI, validation, and implementation choices collectively show how I approach engineering work.
 
 Across the portfolio, that work is meant to demonstrate:
 
