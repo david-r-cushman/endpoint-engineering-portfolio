@@ -56,7 +56,7 @@ AI is part of my engineering process, but it is not the source of engineering ju
 
 I use AI throughout the work of investigating problems, challenging assumptions, comparing alternatives, evaluating tradeoffs, drafting implementations, reviewing code and documentation, validating conclusions, and helping maintain alignment over time.
 
-That matters in a portfolio like this because working code on its own may say very little about the understanding behind it. I want the engineering process to remain visible through the constraints, decisions, validation, and documentation surrounding the implementation.
+To me, that matters because working code on its own may say very little about the understanding behind it. I want the engineering process to remain visible through the constraints, decisions, validation, and documentation surrounding the implementation.
 
 AI remains one component of a governed engineering process. Human judgment, evidence, review, validation, and accountability remain essential to the result.
 
