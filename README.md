@@ -10,7 +10,7 @@ I build endpoint platforms and engineering foundations for Microsoft environment
 
 ## Reliable. Repeatable. Governable.
 
-This portfolio demonstrates how I approach engineering work that must be reliable in production, repeatable across teams and environments, and governable over time. It brings together reusable PowerShell foundations, applied endpoint work, and the documentation that explains the constraints and decisions behind it.
+This portfolio shows how I approach engineering work that must be reliable in production, repeatable across teams and environments, and governable over time. It brings together reusable PowerShell foundations, applied endpoint work, and the documentation that explains the constraints and decisions behind it.
 
 ### Reliable
 
@@ -33,34 +33,34 @@ Engineering should remain understandable, reviewable, and maintainable as system
 - documentation should preserve engineering intent, not just implementation details
 - automation should be guided by standards, validation, and explicit review boundaries
 
-## What This Portfolio Demonstrates
+## How To Read This Portfolio
+
+This portfolio is organized around practical engineering investigations in endpoint engineering and automation.
+
+The implementations in this portfolio are not presented as isolated examples of working code. They are presented as evidence of engineering work into the technologies, abstractions, constraints, and tradeoffs behind modern endpoint management and PowerShell automation.
+
+Each featured repository begins with an engineering question, explores the relevant mechanics and decisions, and produces a working implementation that helps demonstrate the resulting understanding. The code matters, but it is only part of the evidence. The documentation, architecture, ADRs, tests, CI, validation, and implementation choices collectively show how I approach engineering work.
+
+Across the portfolio, that work is meant to demonstrate:
 
 - reusable PowerShell engineering foundations for both PowerShell 7 and Windows PowerShell 5.1
-- applied endpoint and automation projects shaped by real operational constraints
-- AI-assisted engineering shaped by explicit guidance, validation, review, and maintenance workflows
+- applied endpoint and automation work shaped by real operational constraints
+- engineering judgment made visible through documentation, validation, and deliberate implementation decisions
+- AI-assisted engineering governed by explicit review, validation, and maintenance boundaries
 
-In practical terms, the portfolio works in three layers. This landing repo explains the overall approach, the template repos define the engineering baseline, and downstream project repos show that baseline applied to real work.
+Rather than collecting every script or experiment, this portfolio focuses on a smaller number of projects that show how I investigate problems, make decisions, and build solutions that are practical, well-documented, and operationally useful.
+
+If you want the quickest read, go straight to [Featured Projects](#featured-projects). Each case study explains the problem, constraints, implementation choices, and engineering signal behind the work.
 
 ## How I Use AI
 
-I treat AI as a drafting accelerator, not as a substitute for engineering judgment.
+AI is part of my engineering process, but it is not the source of engineering judgment.
 
-Part of my work is defining how AI-assisted changes are constrained, reviewed, validated, and kept aligned over time. Fast output is not enough on its own. The work still has to remain correct, maintainable, and trustworthy after it is produced.
+I use AI throughout the work of investigating problems, challenging assumptions, comparing alternatives, evaluating tradeoffs, drafting implementations, reviewing code and documentation, validating conclusions, and helping maintain alignment over time.
 
-That governance is not the end goal. It is part of how I produce automation that stays reliable, repeatable, and governable after the first draft.
+That matters in a portfolio like this because working code on its own may say very little about the understanding behind it. I want the engineering process to remain visible through the constraints, decisions, validation, and documentation surrounding the implementation.
 
-## Background
-
-My background includes enterprise endpoint engineering in financial services and energy infrastructure, with practical experience in:
-
-- Configuration Manager (ConfigMgr / MECM / SCCM)
-- Microsoft Intune and modern endpoint management
-- Windows deployment and platform lifecycle engineering
-- PowerShell automation
-- Active Directory and Group Policy
-- Microsoft 365, Azure, and security-aligned platform administration
-
-Professional profile: [LinkedIn](https://www.linkedin.com/in/davidrcushman/).
+AI remains one component of a governed engineering process. Human judgment, evidence, review, validation, and accountability remain essential to the result.
 
 ## What I Build
 
@@ -75,24 +75,22 @@ The work I am most drawn to sits at the intersection of:
 
 My approach to engineering was shaped early by work in a role where the margin for error was effectively zero. That experience still informs how I evaluate technical work now.
 
-Reliable means the work is verified, dependable, and safe to trust in production:
+## Background
 
-- if a step is not verified, it is not complete
-- automation should reduce risk, not just save time
+My background includes enterprise endpoint engineering in financial services and energy infrastructure, with practical experience in:
 
-Repeatable means the result should hold up across operators, environments, and future maintenance:
+- Configuration Manager (ConfigMgr / MECM / SCCM)
+- Microsoft Intune and modern endpoint management
+- Windows deployment and platform lifecycle engineering
+- PowerShell automation
+- Active Directory and Group Policy
+- Microsoft 365, Azure, and security-aligned platform administration
 
-- operational tooling should be maintainable long after the first deployment
-- good engineering baselines should reduce drift instead of depending on tribal knowledge
-
-Governable means change should stay reviewable, bounded, and understandable over time:
-
-- clear documentation preserves engineering intent, not just implementation detail
-- automation should be guided by standards, guardrails, and explicit review boundaries
-
-Start with the featured projects below. Each case study explains the problem, constraints, implementation choices, and engineering signal behind the work.
+Professional profile: [LinkedIn](https://www.linkedin.com/in/davidrcushman/).
 
 ## Featured Projects
+
+This section is the clearest view of the engineering approach described above.
 
 ### Foundations
 
@@ -116,7 +114,7 @@ Repository:
 
 ### Applied Projects
 
-If you want the quickest view of hands-on implementation work, start here.
+For the fastest view of hands-on implementation work, begin with the projects in this section.
 
 #### [Uninstall-DisplayDrivers](./projects/powershell-driver-management.md)
 
@@ -145,18 +143,9 @@ Best signal: disciplined module design that combines hardware telemetry, safe st
 Repository:
 [gpu-cooldown-sleep](https://github.com/david-r-cushman/gpu-cooldown-sleep)
 
-## Why This Portfolio Exists
-
-This repository is meant to help recruiters, hiring managers, and technical peers quickly understand how I work.
-
-Rather than collecting every script or experiment, I want this portfolio to highlight a smaller number of projects that clearly show:
-
-- the problem being solved
-- the operational constraints involved
-- the engineering decisions and constraints behind the implementation
-- the reliable, repeatable, and governable thinking behind the result
-
 ## Explore The Work
+
+For a faster scan, use the links below to jump directly into the project evidence and supporting portfolio context.
 
 - [Portfolio Project Index](./projects/README.md)
 - [pwsh-dev-template Case Study](./projects/pwsh-dev-template.md)
@@ -171,4 +160,3 @@ Rather than collecting every script or experiment, I want this portfolio to high
 This repository is provided for portfolio and evaluation purposes.
 
 See [`NOTICE.md`](./NOTICE.md) for rights and usage details.
-
