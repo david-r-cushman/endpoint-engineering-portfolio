@@ -48,7 +48,7 @@ Across the portfolio, that work is meant to demonstrate:
 
 Rather than collecting every script or experiment, this portfolio focuses on a smaller number of projects that show how I investigate problems, make decisions, and build solutions that are practical, well-documented, and operationally useful.
 
-If you want the quickest read, go straight to [Featured Projects](#featured-projects). Each case study explains the problem, constraints, implementation choices, and engineering signal behind the work.
+If you want the quickest read, go straight to [Practical Engineering Investigations](#practical-engineering-investigations). Each case study explains the problem, constraints, implementation choices, and engineering signal behind the work.
 
 ## How I Use AI
 
@@ -86,55 +86,49 @@ My background includes enterprise endpoint engineering in financial services and
 
 Professional profile: [LinkedIn](https://www.linkedin.com/in/davidrcushman/).
 
-## Featured Projects
+## Practical Engineering Investigations
 
-This section is the clearest view of the engineering approach described above.
+These repositories are selected practical engineering investigations into endpoint, automation, and platform problems. Each one is included not only for the working implementation, but for the engineering understanding, decisions, and evidence it helps make visible.
 
-### Foundations
+### [PowerShell Development Template: Available Anywhere](./projects/pwsh-dev-template.md)
 
-#### [PowerShell Development Template: Available Anywhere](./projects/pwsh-dev-template.md)
-
-A reusable PowerShell Core repository template with CI validation, Dev Containers, AI guardrails, ADR-backed decisions, downstream guidance sync, repo-local agent workflows, and template health reporting.
+A reusable PowerShell Core repository template with CI validation, Dev Containers, ADR-backed decisions, guidance sync, and template health reporting, built to investigate what a modern, governed PowerShell engineering baseline should include for portable development and long-term maintenance.
 
 Best signal: reusable engineering standards, deterministic validation, and AI-governed maintenance workflows for modern PowerShell work.
 
 Repository:
 [pwsh-dev-template](https://github.com/david-r-cushman/pwsh-dev-template)
 
-#### [Windows PowerShell 5.1 Development Template](./projects/powershell-dev-template.md)
+### [Windows PowerShell 5.1 Development Template](./projects/powershell-dev-template.md)
 
-A reusable repository template for Windows PowerShell 5.1 projects that need a native Windows development baseline, Windows-hosted CI, and the same testing, analysis, governance, and maintenance discipline as the modern PowerShell template.
+A reusable repository template for Windows PowerShell 5.1 with a native Windows development baseline, Windows-hosted CI, and the same testing, analysis, governance, and maintenance discipline as the modern PowerShell template, built to investigate how that rigor can be preserved for Windows-only work.
 
 Best signal: runtime-aware engineering judgment for legacy and Windows-only PowerShell work without giving up validation discipline.
 
 Repository:
 [powershell-dev-template](https://github.com/david-r-cushman/powershell-dev-template)
 
-### Applied Projects
+### [Uninstall-DisplayDrivers](./projects/powershell-driver-management.md)
 
-For the fastest view of hands-on implementation work, begin with the projects in this section.
-
-#### [Uninstall-DisplayDrivers](./projects/powershell-driver-management.md)
-
-A PowerShell script built from a real ConfigMgr deployment scenario to remove display driver packages with `devcon.exe`.
+A PowerShell script recreated from a real ConfigMgr-based Windows 7 to Windows 10 in-place upgrade solution, modernized to reflect current scripting standards while preserving the operational deployment problem it originally solved with `devcon.exe`.
 
 Best signal: practical ConfigMgr-oriented scripting shaped by real deployment constraints, safety guardrails, and operational reporting.
 
 Repository:
 [powershell-driver-management](https://github.com/david-r-cushman/powershell-driver-management)
 
-#### [WinPE Deployment Lab](./projects/winpe-deployment-lab.md)
+### [WinPE Deployment Lab](./projects/winpe-deployment-lab.md)
 
-A PowerShell-driven WinPE lab for building capture and deployment media while working directly with offline WIM maintenance.
+Enterprise deployment tools such as MDT and ConfigMgr intentionally abstract significant deployment complexity. This repository investigates those underlying mechanics by working directly with WinPE, DISM, WIM servicing, unattended deployment, and deployment media creation, demonstrating that understanding through a practical deployment lab.
 
 Best signal: hands-on platform depth in Windows imaging and offline servicing, with scoped automation that stays technically honest.
 
 Repository:
 [winpe-deployment-lab](https://github.com/david-r-cushman/winpe-deployment-lab)
 
-#### [GPU Cooldown Sleep](./projects/gpu-cooldown-sleep.md)
+### [GPU Cooldown Sleep](./projects/gpu-cooldown-sleep.md)
 
-A PowerShell module that monitors GPU temperature and can put a Windows system to sleep once a target cooldown threshold is reached.
+A PowerShell module built to investigate how hardware telemetry can safely drive automated operating system state changes by combining GPU temperature monitoring, configurable safety thresholds, and controlled Windows sleep behavior.
 
 Best signal: disciplined module design that combines hardware telemetry, safe state changes, and testable operational UX.
 
