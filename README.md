@@ -10,7 +10,7 @@ I build endpoint platforms and engineering foundations for Microsoft environment
 
 ## Reliable. Repeatable. Governable.
 
-This portfolio demonstrates how I approach engineering work that must be reliable in production, repeatable across teams and environments, and governable over time. It brings together reusable PowerShell foundations, applied endpoint work, and the documentation that explains the constraints and decisions behind it.
+This portfolio shows how I approach engineering work that must be reliable in production, repeatable across teams and environments, and governable over time. It brings together reusable PowerShell foundations, applied endpoint work, and the documentation that explains the constraints and decisions behind it.
 
 ### Reliable
 
@@ -33,34 +33,32 @@ Engineering should remain understandable, reviewable, and maintainable as system
 - documentation should preserve engineering intent, not just implementation details
 - automation should be guided by standards, validation, and explicit review boundaries
 
-## What This Portfolio Demonstrates
+## How To Read This Portfolio
+
+This portfolio is organized around practical engineering investigations in endpoint engineering and automation. Each featured repository explores the technologies, underlying mechanics, abstractions, constraints, and tradeoffs behind an operational problem.
+
+The resulting implementation is intended to demonstrate that understanding rather than stand on its own as the claim. The code matters, but it is only part of the evidence. The documentation, architecture, ADRs, tests, CI, validation, and implementation choices collectively show how I approach engineering work.
+
+Across the portfolio, that work is meant to demonstrate:
 
 - reusable PowerShell engineering foundations for both PowerShell 7 and Windows PowerShell 5.1
-- applied endpoint and automation projects shaped by real operational constraints
-- AI-assisted engineering shaped by explicit guidance, validation, review, and maintenance workflows
+- applied endpoint and automation work shaped by real operational constraints
+- engineering judgment made visible through documentation, validation, and deliberate implementation decisions
+- AI-assisted engineering governed by explicit review, validation, and maintenance boundaries
 
-In practical terms, the portfolio works in three layers. This landing repo explains the overall approach, the template repos define the engineering baseline, and downstream project repos show that baseline applied to real work.
+Rather than collecting every script or experiment, this portfolio focuses on a smaller number of projects that show how I investigate problems, make decisions, and build solutions that are practical, well-documented, and operationally useful.
+
+If you want the quickest read, go straight to [Practical Engineering Investigations](#practical-engineering-investigations). Each case study explains the problem, constraints, implementation choices, and engineering signal behind the work.
 
 ## How I Use AI
 
-I treat AI as a drafting accelerator, not as a substitute for engineering judgment.
+AI is part of my engineering process, but it is not the source of engineering judgment.
 
-Part of my work is defining how AI-assisted changes are constrained, reviewed, validated, and kept aligned over time. Fast output is not enough on its own. The work still has to remain correct, maintainable, and trustworthy after it is produced.
+I use AI throughout the work of investigating problems, challenging assumptions, comparing alternatives, evaluating tradeoffs, drafting implementations, reviewing code and documentation, validating conclusions, and helping maintain alignment over time.
 
-That governance is not the end goal. It is part of how I produce automation that stays reliable, repeatable, and governable after the first draft.
+To me, that matters because working code on its own may say very little about the understanding behind it. I want the engineering process to remain visible through the constraints, decisions, validation, and documentation surrounding the implementation.
 
-## Background
-
-My background includes enterprise endpoint engineering in financial services and energy infrastructure, with practical experience in:
-
-- Configuration Manager (ConfigMgr / MECM / SCCM)
-- Microsoft Intune and modern endpoint management
-- Windows deployment and platform lifecycle engineering
-- PowerShell automation
-- Active Directory and Group Policy
-- Microsoft 365, Azure, and security-aligned platform administration
-
-Professional profile: [LinkedIn](https://www.linkedin.com/in/davidrcushman/).
+AI remains one component of a governed engineering process. Human judgment, evidence, review, validation, and accountability remain essential to the result.
 
 ## What I Build
 
@@ -75,88 +73,71 @@ The work I am most drawn to sits at the intersection of:
 
 My approach to engineering was shaped early by work in a role where the margin for error was effectively zero. That experience still informs how I evaluate technical work now.
 
-Reliable means the work is verified, dependable, and safe to trust in production:
+## Background
 
-- if a step is not verified, it is not complete
-- automation should reduce risk, not just save time
+My background includes enterprise endpoint engineering in financial services and energy infrastructure, with practical experience in:
 
-Repeatable means the result should hold up across operators, environments, and future maintenance:
+- Configuration Manager (ConfigMgr / MECM / SCCM)
+- Microsoft Intune and modern endpoint management
+- Windows deployment and platform lifecycle engineering
+- PowerShell automation
+- Active Directory and Group Policy
+- Microsoft 365, Azure, and security-aligned platform administration
 
-- operational tooling should be maintainable long after the first deployment
-- good engineering baselines should reduce drift instead of depending on tribal knowledge
+Professional profile: [LinkedIn](https://www.linkedin.com/in/davidrcushman/).
 
-Governable means change should stay reviewable, bounded, and understandable over time:
+## Practical Engineering Investigations
 
-- clear documentation preserves engineering intent, not just implementation detail
-- automation should be guided by standards, guardrails, and explicit review boundaries
+These repositories are selected practical engineering investigations into endpoint, automation, and platform problems. Each one is included not only for the working implementation, but for the engineering understanding, decisions, and evidence it helps make visible.
 
-Start with the featured projects below. Each case study explains the problem, constraints, implementation choices, and engineering signal behind the work.
+### [PowerShell Development Template: Available Anywhere](./projects/pwsh-dev-template.md)
 
-## Featured Projects
-
-### Foundations
-
-#### [PowerShell Development Template: Available Anywhere](./projects/pwsh-dev-template.md)
-
-A reusable PowerShell Core repository template with CI validation, Dev Containers, AI guardrails, ADR-backed decisions, downstream guidance sync, repo-local agent workflows, and template health reporting.
+A reusable PowerShell Core repository template with CI validation, Dev Containers, ADR-backed decisions, guidance sync, and template health reporting, built to investigate what a modern, governed PowerShell engineering baseline should include for portable development and long-term maintenance.
 
 Best signal: reusable engineering standards, deterministic validation, and AI-governed maintenance workflows for modern PowerShell work.
 
 Repository:
 [pwsh-dev-template](https://github.com/david-r-cushman/pwsh-dev-template)
 
-#### [Windows PowerShell 5.1 Development Template](./projects/powershell-dev-template.md)
+### [Windows PowerShell 5.1 Development Template](./projects/powershell-dev-template.md)
 
-A reusable repository template for Windows PowerShell 5.1 projects that need a native Windows development baseline, Windows-hosted CI, and the same testing, analysis, governance, and maintenance discipline as the modern PowerShell template.
+A reusable repository template for Windows PowerShell 5.1 with a native Windows development baseline, Windows-hosted CI, and the same testing, analysis, governance, and maintenance discipline as the modern PowerShell template, built to investigate how that rigor can be preserved for Windows-only work.
 
 Best signal: runtime-aware engineering judgment for legacy and Windows-only PowerShell work without giving up validation discipline.
 
 Repository:
 [powershell-dev-template](https://github.com/david-r-cushman/powershell-dev-template)
 
-### Applied Projects
+### [Uninstall-DisplayDrivers](./projects/powershell-driver-management.md)
 
-If you want the quickest view of hands-on implementation work, start here.
-
-#### [Uninstall-DisplayDrivers](./projects/powershell-driver-management.md)
-
-A PowerShell script built from a real ConfigMgr deployment scenario to remove display driver packages with `devcon.exe`.
+A PowerShell script recreated from a real ConfigMgr-based Windows 7 to Windows 10 in-place upgrade solution, modernized to reflect current scripting standards while preserving the operational deployment problem it originally solved with `devcon.exe`.
 
 Best signal: practical ConfigMgr-oriented scripting shaped by real deployment constraints, safety guardrails, and operational reporting.
 
 Repository:
 [powershell-driver-management](https://github.com/david-r-cushman/powershell-driver-management)
 
-#### [WinPE Deployment Lab](./projects/winpe-deployment-lab.md)
+### [WinPE Deployment Lab](./projects/winpe-deployment-lab.md)
 
-A PowerShell-driven WinPE lab for building capture and deployment media while working directly with offline WIM maintenance.
+Enterprise deployment tools such as MDT and ConfigMgr intentionally abstract significant deployment complexity. This repository investigates those underlying mechanics by working directly with WinPE, DISM, WIM servicing, unattended deployment, and deployment media creation, demonstrating that understanding through a practical deployment lab.
 
 Best signal: hands-on platform depth in Windows imaging and offline servicing, with scoped automation that stays technically honest.
 
 Repository:
 [winpe-deployment-lab](https://github.com/david-r-cushman/winpe-deployment-lab)
 
-#### [GPU Cooldown Sleep](./projects/gpu-cooldown-sleep.md)
+### [GPU Cooldown Sleep](./projects/gpu-cooldown-sleep.md)
 
-A PowerShell module that monitors GPU temperature and can put a Windows system to sleep once a target cooldown threshold is reached.
+A PowerShell module built to investigate how hardware telemetry can safely drive automated operating system state changes by combining GPU temperature monitoring, configurable safety thresholds, and controlled Windows sleep behavior.
 
 Best signal: disciplined module design that combines hardware telemetry, safe state changes, and testable operational UX.
 
 Repository:
 [gpu-cooldown-sleep](https://github.com/david-r-cushman/gpu-cooldown-sleep)
 
-## Why This Portfolio Exists
-
-This repository is meant to help recruiters, hiring managers, and technical peers quickly understand how I work.
-
-Rather than collecting every script or experiment, I want this portfolio to highlight a smaller number of projects that clearly show:
-
-- the problem being solved
-- the operational constraints involved
-- the engineering decisions and constraints behind the implementation
-- the reliable, repeatable, and governable thinking behind the result
-
 ## Explore The Work
+
+For a faster scan, use the links below to jump directly into the project evidence and supporting portfolio context.
 
 - [Portfolio Project Index](./projects/README.md)
 - [pwsh-dev-template Case Study](./projects/pwsh-dev-template.md)
@@ -171,4 +152,3 @@ Rather than collecting every script or experiment, I want this portfolio to high
 This repository is provided for portfolio and evaluation purposes.
 
 See [`NOTICE.md`](./NOTICE.md) for rights and usage details.
-
