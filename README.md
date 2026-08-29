@@ -71,7 +71,7 @@ The work I am most drawn to sits at the intersection of:
 - platform modernization across on-prem and cloud-connected tooling
 - documentation and process design that make systems supportable over time
 
-My approach to engineering was shaped early by work in a role where the margin for error was effectively zero. That experience still informs how I evaluate technical work now.
+My approach to engineering was shaped early by work where mistakes could have immediate and irreversible consequences. That experience taught me to respect risk and consequences; IT taught me to build systems that anticipate failure and make it detectable, manageable, and recoverable.
 
 ## Background
 
