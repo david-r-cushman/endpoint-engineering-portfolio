@@ -8,6 +8,8 @@
 
 I build endpoint platforms and engineering foundations for Microsoft environments, with a focus on PowerShell automation, governance, and reliability.
 
+I'm naturally drawn to deconstructing systems to understand how they work, where their abstractions end, and how they behave when things go wrong. Much of my recent PowerShell and AI-assisted engineering work has grown from that same approach: examining what it means to develop trustworthy automation, then turning what I learn into practical tools, standards, tests, and workflows.
+
 ## Reliable. Repeatable. Governable.
 
 This portfolio shows how I approach engineering work that must be reliable in production, repeatable across teams and environments, and governable over time. It brings together reusable PowerShell foundations, applied endpoint work, and the documentation that explains the constraints and decisions behind it.
