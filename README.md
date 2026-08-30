@@ -54,11 +54,11 @@ If you want the quickest read, go straight to [Practical Engineering Investigati
 
 AI is part of my engineering process, but it is not the source of engineering judgment.
 
-I use AI throughout the work of investigating problems, challenging assumptions, comparing alternatives, evaluating tradeoffs, drafting implementations, reviewing code and documentation, validating conclusions, and helping maintain alignment over time.
+I use AI as a drafting and reasoning accelerator throughout investigation, implementation, review, documentation, and maintenance. Repository instructions, task-specific skills, defined behavioral expectations, and repeatable interaction workflows provide boundaries for how AI participates in the work.
 
-To me, that matters because working code on its own may say very little about the understanding behind it. I want the engineering process to remain visible through the constraints, decisions, validation, and documentation surrounding the implementation.
+Those controls guide behavior; they do not prove that generated code is correct. AI-generated work is evaluated, challenged, and refined, then validated through engineering controls such as code review, PSScriptAnalyzer, Pester testing, CI, and observed system behavior. Tests and validation are themselves reviewed to ensure they provide meaningful evidence that the implementation satisfies the intended requirements.
 
-AI remains one component of a governed engineering process. Human judgment, evidence, review, validation, and accountability remain essential to the result.
+The goal is to gain the speed and flexibility of AI assistance without delegating engineering accountability to it. Human judgment remains responsible for defining the problem, evaluating risk, deciding what good looks like, and determining whether the final result is correct, safe, maintainable, and worth keeping.
 
 ## What I Build
 
