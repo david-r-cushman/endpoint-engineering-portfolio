@@ -1,11 +1,15 @@
-# Project Selection Notes
+# Project Selection Criteria
 
-[← Portfolio](../README.md) · [Projects](../projects/README.md) · [Portfolio Roadmap](./portfolio-roadmap.md)
+[← Portfolio](../README.md) · [Portfolio Maintenance Guide](./project-alignment.md) · [Portfolio Roadmap](./portfolio-roadmap.md)
 
-This portfolio should prioritize projects that demonstrate one or more of the following:
+This portfolio is curated around cohesive engineering investigations and the individual projects that provide meaningful evidence within them.
 
-- real operational use in enterprise environments
-- technically honest lab work that demonstrates meaningful platform depth
+## Inclusion Criteria
+
+Include work when it demonstrates one or more of the following:
+
+- real operational relevance in enterprise environments
+- technically honest lab work with meaningful platform depth
 - clear automation value
 - strong safety or guardrail design
 - reliable outcomes under real operational constraints
@@ -13,30 +17,12 @@ This portfolio should prioritize projects that demonstrate one or more of the fo
 - governable change through documentation, review boundaries, or maintenance controls
 - relevance to endpoint engineering, hybrid management, or Microsoft 365-aligned platform administration
 
-## Included First
+## Continued Inclusion
 
-### pwsh-dev-template
+A project or investigation should remain featured only while it contributes clear, accurate engineering evidence. Historical inclusion, repository size, or mere public availability are not enough.
 
-Included because it shows engineering maturity around environment design, deterministic validation, reusable PowerShell foundations, and practical AI-assisted maintenance workflows.
-
-### powershell-dev-template
-
-Included because it shows how the same engineering discipline can be adapted for Windows PowerShell 5.1 without pretending that a modern cross-platform environment fits every project. It demonstrates runtime-aware judgment for Windows-only and legacy-module work while preserving testing, analysis, CI, documentation, and AI-assisted maintenance controls.
-
-### powershell-driver-management
-
-Included because it comes directly from a real endpoint operations problem and demonstrates practical script design under deployment constraints.
-
-### winpe-deployment-lab
-
-Included because it demonstrates direct understanding of WinPE, WIM servicing, and deployment mechanics that are often hidden behind higher-level tooling. Although it is intentionally scoped as a lab project rather than an enterprise deployment framework, it adds useful depth to the portfolio by showing lower-level platform knowledge and PowerShell-based workflow design.
-
-### gpu-cooldown-sleep
-
-Included because it shows disciplined PowerShell module design around a small but real operational problem. It adds a different kind of signal than the other entries by combining hardware telemetry, safe power-state automation, provider-oriented extensibility, and testable command design.
+Review whether the work still demonstrates useful judgment, operational awareness, technical depth, or a practical ability to turn a real need into a reliable, repeatable, and governable outcome.
 
 ## Selection Principle
 
-The best portfolio projects are not always the biggest ones.
-
-They are the ones that most clearly show judgment, operational awareness, technical depth, and the ability to turn messy real-world needs into reliable, repeatable, and governable technical outcomes.
+The best portfolio work is not always the biggest work. It is work that makes engineering judgment visible without overstating maturity, adoption, production use, or business impact.

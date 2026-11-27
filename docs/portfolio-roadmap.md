@@ -1,35 +1,21 @@
 # Portfolio Roadmap
 
-[← Portfolio](../README.md) · [Projects](../projects/README.md) · [Project Selection Criteria](./project-selection.md)
+[← Portfolio](../README.md) · [Project Selection Criteria](./project-selection.md) · [Portfolio Maintenance Guide](./project-alignment.md)
 
-This file tracks the likely next steps for turning this repository into a stronger public portfolio.
+## Current Architecture
 
-## Recent Progress
-
-- the root README now has a clearer narrative through-line around practical engineering investigations and `Reliable. Repeatable. Governable.`
-- project pages now function as portfolio-facing case studies rather than simple project blurbs
-- the portfolio more clearly shows how documentation, validation, and implementation work together as engineering evidence
+The portfolio is organized around engineering investigations. The root README introduces the portfolio and its investigations; each investigation owns its artifact relationships and project navigation; individual case studies retain project-specific context.
 
 ## Next Steps
 
-- strengthen profile and repository visibility further
-  partly addressed through the root README, LinkedIn link, and repository links in project entries, but still worth refining so important external touchpoints are easier to scan
-- evaluate whether the current root README visual treatment is enough
-  partly addressed through the existing README presentation, but still worth revisiting if a stronger banner or brand treatment would improve recognition without adding noise
-- add at least one project focused on modern management or cloud-connected endpoint work
-- continue adding projects that extend the portfolio's practical endpoint and automation range without diluting its engineering focus
-
-## Strong Candidate Content
-
-- Intune or Autopilot-oriented work
-- Microsoft 365 or Azure administration automation
-- endpoint governance and standards material
-- reusable operational PowerShell tooling
-- projects that demonstrate repeatable operational baselines or reviewable automation controls
+- strengthen profile and repository visibility where it helps readers find relevant work quickly
+- evaluate whether the current root README visual treatment remains effective without adding noise
+- add investigations that broaden the practical endpoint and automation range, such as modern management, cloud-connected endpoint work, infrastructure as code, or Microsoft Graph
+- continue curating featured work against the [selection criteria](./project-selection.md)
 
 ## Presentation Goals
 
 - keep the root README concise and recruiter-friendly
-- let project pages carry the deeper technical narrative
-- keep the portfolio focused on practical engineering investigations and engineering evidence rather than keyword lists
-- make the values of reliable, repeatable, and governable visible without turning the portfolio into a resume clone
+- let investigation pages carry shared engineering narrative and artifact relationships
+- let case studies carry deeper project-specific evidence when they add value
+- make reliable, repeatable, and governable engineering visible without turning the portfolio into a resume clone or release archive

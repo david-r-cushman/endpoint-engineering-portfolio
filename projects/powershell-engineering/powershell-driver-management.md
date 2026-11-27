@@ -1,6 +1,6 @@
 # Uninstall-DisplayDrivers
 
-[← Project Index](./README.md) · [Portfolio](../README.md)
+[← PowerShell Engineering](./README.md) · [Portfolio](../../README.md)
 
 ## Summary
 
