@@ -1,6 +1,6 @@
 # Windows PowerShell 5.1 Development Template
 
-[← Project Index](./README.md) · [Portfolio](../README.md)
+[← PowerShell Engineering](./README.md) · [Portfolio](../../README.md)
 
 ## Summary
 

@@ -1,47 +1,47 @@
-# Project Alignment Guide
+# Portfolio Maintenance Guide
 
-[← Portfolio](../README.md) · [Projects](../projects/README.md) · [Project Selection Criteria](./project-selection.md)
+[← Portfolio](../README.md) · [Project Selection Criteria](./project-selection.md) · [Portfolio Roadmap](./portfolio-roadmap.md)
 
 This guide helps maintainers and AI agents keep the portfolio aligned with the repositories it references without adding clutter for readers.
 
-The portfolio is a summary layer. It should explain the value, constraints, and engineering signal of each project. It should not copy full project READMEs, track every release, or make claims that are not supported by the referenced repository.
+The portfolio is a summary layer. It should explain value, constraints, and engineering signal; it should not copy implementation READMEs, track every release, or make claims unsupported by the referenced repository.
 
-## When To Update Portfolio Pages
+## Document Responsibilities
 
-Update a portfolio project page when a referenced project has changed in a way that affects the reader's understanding of:
+| Document | Primary responsibility |
+|---|---|
+| Root README | Professional introduction and catalogue of engineering investigations. |
+| Investigation README | Context, objectives, artifact relationships, outcomes, and navigation. |
+| Project case study | Project-specific problem, constraints, implementation, and engineering significance. |
+| Project selection criteria | Inclusion and continued-inclusion criteria. |
+| This guide | Maintenance and accuracy boundaries. |
+| Portfolio roadmap | Future portfolio development. |
+| Implementation repository README | Technical implementation, usage, and repository-specific documentation. |
 
-- what the project is
-- why it exists
-- what was built
-- what engineering judgment it demonstrates
-- what audience or use case it is relevant to
+Each document should add useful context rather than repeat its parent or child document.
 
-Do not update the portfolio for every routine project commit. Small fixes, internal refactors, dependency bumps, and release housekeeping usually do not need portfolio changes unless they materially change the story a reader should see.
+## When To Update
 
-When a referenced project adds durable ADRs, governance boundaries, or maintenance workflows that change the engineering signal, summarize the reader-facing meaning without copying the ADR text or turning the portfolio into a release archive.
+Update an investigation landing page when its body of work, artifact relationships, or reader-facing engineering outcome changes materially. Update a case study when a project changes what it is, why it exists, what it demonstrates, or the audience it serves.
 
-## Project Page Checklist
+Do not update the portfolio for every routine commit. Small fixes, internal refactors, dependency updates, and release housekeeping do not usually change the reader-facing story.
 
-Each project page should make these points easy to find:
+Update the root README only when the portfolio-level narrative or investigation catalogue changes. Update the selection criteria or this guide only when their respective policies change.
 
-- clear summary of the project
-- link to the referenced repository
-- problem space or reason the project exists
-- what was built
-- design priorities or constraints
-- why the project belongs in the portfolio
-- what the project demonstrates to a technical reader
+## Adding and Removing Work
 
-Use plain language. Prefer accurate, specific claims over broad marketing language.
+To add an investigation, add its landing page and one concise root-README entry. An investigation may contain one implementation repository, multiple related repositories, or no individual case studies when a landing page fully explains the evidence.
 
-## Alignment Boundaries
+To add a project to an existing investigation, update that investigation's navigation and add a case study only when project-specific context adds reader value. To remove a project, remove its investigation entry, its case study if present, and affected references. Do not ordinarily edit the root README for either operation.
 
-When updating project documentation:
+To remove an investigation, remove its root-README entry, its landing page, associated case studies, and affected references.
+
+## Accuracy Boundaries
+
+When updating portfolio documentation:
 
 - do not overstate production readiness, adoption, uniqueness, or business impact
-- do not copy the referenced repository README into the portfolio
-- do not turn the portfolio into a changelog or release archive
-- do not add process details that distract from reader understanding
-- do not add scripts, skills, CI, or badges unless there is a repeated maintenance problem worth solving
-
-The root `README.md` should stay focused on navigation and first-impression clarity. Deeper project context belongs in `projects/`, and maintainer guidance belongs in `docs/`.
+- distinguish production experience, recreated solutions, personal tooling, technical investigations, labs, and reference implementations
+- verify template relationships before documenting them; do not infer lineage from similar structure or tooling
+- summarize durable reader-facing meaning instead of copying ADRs, process details, or implementation README content
+- do not add scripts, skills, CI, badges, or automation unless a repeated maintenance problem justifies it
